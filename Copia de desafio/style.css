@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&family=Nanum+Gothic&family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: Kumbh Sans;
+    color: white;
+
+
+}
+
+body{
+    background-color: hsl(257, 40%, 49%);
+    
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    margin-right: -500%;
+    transform: translate(20%, -50%);
+
+}
+
+.titulo {
+    width: 380px;
+
+}
+
+.texto {
+    width: 400px;
+   
+
+}
+
+button{
+    color: hsl(257, 40%, 49%);
+    border-radius: 50px;
+    height: 50px;
+    width: 135px;
+    font-weight: bold;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+.logo {
+    position: absolute;
+    right: 70%;
+    transform: translateY(100%);
+    
+}
+
+.image {
+
+    position: absolute;
+    right: 100%;
+    top: -50%;
+    transform: translateX(-10%);
+    
+
+}
+
+
+
